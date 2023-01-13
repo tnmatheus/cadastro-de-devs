@@ -104,3 +104,10 @@ form.addEventListener("submit", function (ev) {
 
   console.log(developers);
 });
+
+function switchTheme() {
+  document.body.classList.toggle("is-light");
+  document.body.classList.toggle("is-dark");
+}
+
+document.getElementById("switchBtn").addEventListener("click", switchTheme);

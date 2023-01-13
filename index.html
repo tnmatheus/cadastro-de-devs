@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .is-light {
+        background-color: #f1f5f9;
+        color: #212529;
+      }
+      .is-dark {
+        background-color: #212529;
+        color: #f1f5f9;
+      }
+    </style>
     <title>Cadastro de Devs</title>
     <script src="./index.js" defer></script>
   </head>
-  <body>
+  <body class="is-light">
     <h1>Cadastro de Devs</h1>
+    <button id="switchBtn">Tema Claro/Escuro</button>
     <hr />
 
     <h2>Cadastrar Novo Desenvolvedor</h2>
